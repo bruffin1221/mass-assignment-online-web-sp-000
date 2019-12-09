@@ -7,6 +7,7 @@ class Person
 
 def intialize(attributes)
   attributes.each{|key, value| puts key, value}
+  binding.pry
 end
 
 end
